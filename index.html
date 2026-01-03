@@ -286,17 +286,22 @@
     .hero-content p { margin: 0 auto 32px; }
     .hero-actions { justify-content: center; }
     
-    /* Navigation - Show as small buttons below logo */
-    .nav-wrapper { flex-direction: column; gap: 16px; }
-    nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
-    nav a { 
-        font-size: 13px; 
-        background: rgba(255,255,255,0.05); 
-        padding: 8px 16px; 
-        border-radius: 20px; 
-        border: 1px solid var(--glass-border);
+    /* Navigation - LOGO LEFT, CONTACT RIGHT */
+    .nav-wrapper { 
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items: center;
     }
-    nav .btn { display: none; } /* Hide the big contact button in nav on mobile */
+    
+    /* Hide all regular text links */
+    nav a:not(.btn-primary) { display: none; }
+    
+    /* Style the Contact button specifically for mobile */
+    nav .btn-primary { 
+      display: inline-flex; 
+      padding: 8px 16px;
+      font-size: 14px;
+    }
 
     /* Phone Mockup - Static & Non-Scrollable */
     .phone-mockup { margin-top: 50px; transform: none; }

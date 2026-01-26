@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="shaanko_logo.jpg" alt="Shaanko Logo" width="120" height="auto" />
+  <img src="shaako_logo.png" alt="Shaanko Logo" width="120" height="auto" />
   <h1>Shaanko</h1>
   <h3>The Bridge to Secure Digital Trading</h3>
   

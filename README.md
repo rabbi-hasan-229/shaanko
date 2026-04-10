@@ -81,7 +81,7 @@ To view the landing page locally on your machine:
 ## 👥 The Team
 
 * **Rabbi Hasan** - *Founder & CEO* - Product Lead, UI/UX & Full-Stack Developer.
-* **Maruf Hasan Sifat** - *Co-Founder & CMO* - Marketing Strategist & Growth Lead.
+* **Maruf Hasan Sifat** - Marketing Strategist & Growth Lead.
 
 ## MZ Contact
 
